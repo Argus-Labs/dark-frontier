@@ -1,4 +1,4 @@
-<div align="center"><img src="./dark-frontier-client/Assets/DF/Images/UI_LogoMain.png" alt="Gameplay Screenshot" width="512"><br/><br/><br/></div>
+<div align="center"><img src="./client/Assets/DF/Images/UI_LogoMain.png" alt="Gameplay Screenshot" width="512"><br/><br/><br/></div>
 
 # Welcome
 <p>
@@ -11,7 +11,7 @@ This repo, dark-frontier-full-stack-example, consists of two projects: a backend
 We recommend setting up a local backend first and then the client project. Instructions are provided below for setting up both projects. If you have any questions, please reach out to our friendly community on <a href="https://discord.com/invite/XyfDPHDmWU.">Discord</a>!
 </p>
 
-# Dark Frontier Backend
+# Backend
 
 <div>
     <a href="https://codecov.io/gh/Argus-Labs/darkfrontier-backend" >
@@ -147,9 +147,9 @@ A user endpoint which validates the user's `device_id`.
 }
 ``````
 <br/><br/>
-# Dark Frontier Client
+# Client
 
-![Gameplay Screenshot](./dark-frontier-client/screenshot.png)
+![Gameplay Screenshot](./client/screenshot.png)
 Dark Frontier is a Unity based MMORTS created by Argus Labs to demonstrate the capabilities of World Engine.
 
 ## Getting Started
@@ -171,7 +171,7 @@ Dark Frontier is a Unity based MMORTS created by Argus Labs to demonstrate the c
 - Open the Bootstrap scene: Assets/Scenes/Bootstrap.unity
 - Adjust the communications settings to suit your needs.
 <br/>
-<img src="./dark-frontier-client/bootstrap.png" alt="Gameplay Screenshot" width="400">
+<img src="./client/bootstrap.png" alt="Gameplay Screenshot" width="400">
 <br/>
 Need help? Start here: https://world.dev/introduction
 <br>Please feel free to use our cloud prover for both local and remote DF dev setups:
@@ -184,32 +184,32 @@ Need help? Start here: https://world.dev/introduction
 - Press Play to start the game.
 
 ### Start with Bootstrap
-[Bootstrap.cs](./dark-frontier-client/Packages/gg.argus.df-client/Runtime/Core/Bootstrap.cs) is the main entry point to start looking at code. It is repsonsible for instantiating all dependencies as well as setting up the major game states and their transitions so that everything is ready to go when the initial game state is started.
+[Bootstrap.cs](./client/Packages/gg.argus.df-client/Runtime/Core/Bootstrap.cs) is the main entry point to start looking at code. It is repsonsible for instantiating all dependencies as well as setting up the major game states and their transitions so that everything is ready to go when the initial game state is started.
 
 Each major game state receives dependencies on a need-to-know basis. An EventManager allows for communication between game states, UI, and a CommunicationsManager.
 
 The CommunicationsManager is responsible for communicating with the backend. Non-game-specific communications are handled by the [gg.argus.world-engine-client-communications-unity](https://github.com/Argus-Labs/world-engine-client-communications-unity) UPM package.
 
-Gameplay logic is handled in [Gameplay.cs](./dark-frontier-client/Packages/gg.argus.df-client/Runtime/Core/States/Gameplay.cs).
+Gameplay logic is handled in [Gameplay.cs](./client/Packages/gg.argus.df-client/Runtime/Core/States/Gameplay.cs).
 
 ## Gameplay
 Here are 3 tutorials from the game. They may not be visible from GitHub, but they should be visible from Visual Studio Code or other supported viewers. Alternatively, click any of the links below and then select GitHub's View Raw link to download and watch.
 
-### [Tutorial 1](./dark-frontier-client/Assets/StreamingAssets/tutorial-1.mp4)
+### [Tutorial 1](./client/Assets/StreamingAssets/tutorial-1.mp4)
 <video width="640" height="360" controls>
-  <source src="./dark-frontier-client/Assets/StreamingAssets/tutorial-1.mp4" type="video/mp4">
+  <source src="./client/Assets/StreamingAssets/tutorial-1.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### [Tutorial 2](./dark-frontier-client/Assets/StreamingAssets/tutorial-2.mp4)
+### [Tutorial 2](./client/Assets/StreamingAssets/tutorial-2.mp4)
 <video width="640" height="360" controls>
-  <source src="./dark-frontier-client/Assets/StreamingAssets/tutorial-2.mp4" type="video/mp4">
+  <source src="./client/Assets/StreamingAssets/tutorial-2.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
-### [Tutorial 3](./dark-frontier-client/Assets/StreamingAssets/tutorial-3.mp4)
+### [Tutorial 3](./client/Assets/StreamingAssets/tutorial-3.mp4)
 <video width="640" height="360" controls>
-  <source src="./dark-frontier-client/Assets/StreamingAssets/tutorial-3.mp4" type="video/mp4">
+  <source src="./client/Assets/StreamingAssets/tutorial-3.mp4" type="video/mp4">
   Your browser does not support the video tag.
 </video>
 
