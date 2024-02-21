@@ -1,0 +1,21 @@
+{
+    "name": "ArgusLabs.DF",
+    "rootNamespace": "ArgusLabs.DF",
+    "references": [
+        "GUID:51af6d8089abd76428064ce6002ad45d",
+        "GUID:69810832b544b46da9804f1af9373521",
+        "GUID:75469ad4d38634e559750d17036d5f7c",
+        "GUID:6055be8ebefd69e48b49212b09b47b2f",
+        "GUID:d8b63aba1907145bea998dd612889d6b",
+        "ArgusLabs.WorldEngineClient.Communications"
+    ],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}

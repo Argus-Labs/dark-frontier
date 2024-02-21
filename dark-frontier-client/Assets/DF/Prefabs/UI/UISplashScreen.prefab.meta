@@ -1,0 +1,12 @@
+fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/DarkForest/Prefabs/UI/UISplashScreen.prefab.meta
+guid: 920b92e5250157748ae78ccfdbb6997b
+PrefabImporter:
+========
+guid: 69810832b544b46da9804f1af9373521
+AssemblyDefinitionImporter:
+>>>>>>>> main:Assets/Packages/Nakama/Runtime/NakamaRuntime.asmdef.meta
+  externalObjects: {}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

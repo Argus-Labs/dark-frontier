@@ -1,0 +1,15 @@
+fileFormatVersion: 2
+guid: 8748f5ec8b68e594a87dc8fd7f63e715
+labels:
+- DarkForest
+- Disc
+- Ring
+- SpaceView
+ScriptedImporter:
+  internalIDToNameTable: []
+  externalObjects: {}
+  serializedVersion: 2
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
+  script: {fileID: 11500000, guid: 625f186215c104763be7675aa2d941aa, type: 3}

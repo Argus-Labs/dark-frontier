@@ -1,0 +1,47 @@
+
+name: darkfrontier
+data_dir: "./data/"
+
+session:
+  # Set a session duration of about 2-3 times the length of game’s average play session
+  token_expiry_sec: 21600 # 6 hours
+  refresh_token_expiry_sec: 604800 # 1 week
+  # Staging only key, Production keys will be supplied via deployment secrets
+  # encryption_key: "darkfrontier-staging-encryption-key"
+  # refresh_encryption_key: "darkfrontier-staging-refresh-encryption-key"
+
+logger:
+  stdout: true
+  level: "info"
+
+database:
+  conn_max_lifetime_ms: 0 # indefinite, always reuse conn
+  max_open_conns: 250
+  max_idle_conns: 100
+  encryption_key: "defaultencryptionkey"
+  refresh_encryption_key: "defaultrefreshencryptionkey"
+
+runtime:
+  # Staging only key, Production keys will be supplied via deployment secrets
+  http_key: "defaulthttpkey"
+
+socket:
+  port: 7350
+  protocol: tcp
+  read_timeout_ms: 10000
+  write_timeout_ms: 30000
+  idle_timeout_ms: 60000
+  outgoing_queue_size: 32
+  # Staging only key, Production keys will be supplied via deployment secrets
+  server_key: "defaultkey"
+
+console:
+  port: 7351
+  # Staging only credentials, Production creds will be supplied via deployment secrets
+  username: "admin"
+  password: "password"
+
+metrics:
+  reporting_freq_sec: 60
+  namespace: ""
+  prometheus_port: 7354

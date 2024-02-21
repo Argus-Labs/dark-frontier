@@ -1,0 +1,19 @@
+# By default, the root project directory is the location of this config file.
+# The root directory can be changed by uncommenting the following line.
+# root_dir="/path/to/cardinal/"
+
+[cardinal]
+CARDINAL_NAMESPACE="darkfrontier"
+CARDINAL_PORT=3333
+CARDINAL_MODE="development"
+TIMER=1209600
+WORLD_RADIUS=2000
+
+[evm]
+# DA_AUTH_TOKEN is obtained from celestia client and passed in from world.toml.
+# See https://docs.celestia.org/developers/node-tutorial#auth-token
+DA_AUTH_TOKEN=""
+DA_BASE_URL="http://celestia-devnet:26658"
+DA_NAMESPACE_ID="67480c4a88c4d12935d4"
+CHAIN_ID="world-engine"
+BLOCK_TIME="1s"
