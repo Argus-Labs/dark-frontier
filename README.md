@@ -13,31 +13,14 @@ We recommend setting up a local backend first and then the client project. Instr
 
 # Backend
 
-<div>
-    <a href="https://codecov.io/gh/Argus-Labs/darkfrontier-backend" >
-        <img src="https://codecov.io/gh/Argus-Labs/darkfrontier-backend/branch/main/graph/badge.svg?token=288Z87TOLB"/>
-    </a>
-</div>
+## Getting Started
+- Be sure to read the [World Engine Getting Started](https://world.dev/introduction) page first.
 
-For a more detailed README,
-see [Getting Started with Cardinal](https://coda.io/d/Getting-Started-with-Cardinal_dvcS4DQePrC/Getting-Started-with-Cardinal_su6d-#_luof7).
+- Follow the [Quickstart](https://world.dev/quickstart) guide to install the prerequisites for this project. There's no need to create your own World Engine project (part of the guide), but it may be a valuable experience and will only take a few minutes if you have the time.
 
-## Prerequisites
+- Optional: Install or use [Visual Studio Code](https://code.visualstudio.com) to navigate the project on any platform. On Windows this will provide an integrated WSL CLI while working with the project.  WSL must be pre-installed on Windows.  More information is available in the [Quickstart](https://world.dev/quickstart) guide.  Please be sure to install your choice of Go Lang extensions for VSCode.  Please note: When modifying Cardinal code via VSCode, for full Go Lang capabilities, please open the <b><i>cardinal</i></b> folder as your root folder.  When running World Engine CLI commands, run them from the <b><i>backend</i></b> folder.
 
-### Docker Compose
-
-Docker and docker compose are required for running Nakama and both can be installed with Docker Desktop.
-
-[Installation instructions for Docker Desktop](https://docs.docker.com/compose/install/#scenario-one-install-docker-desktop)
-
-### world-cli
-
-[world-cli](https://github.com/Argus-Labs/world-cli) is a CLI to create and manage World Engine projects. You
-can install the latest release using the following:
-
-```bash
-curl https://install.world.dev/cli! | bash
-```
+- You can also find backend (Cardinal) specific documentation [here](https://world.dev/cardinal/introduction).
 
 ## Running the Server
 
@@ -170,13 +153,13 @@ Dark Frontier is a Unity based MMORTS created by Argus Labs to demonstrate the c
 - Open the project in Unity 2022 LTS. At the time of this writing, 2023.2.x contains rendering issues.
 - Open the Bootstrap scene: Assets/Scenes/Bootstrap.unity
 - Adjust the communications settings to suit your needs.
+<br/><img src="./client/bootstrap.png" alt="Gameplay Screenshot" width="400">
 <br/>
-<img src="./client/bootstrap.png" alt="Gameplay Screenshot" width="400">
-<br/>
-Need help? Start here: https://world.dev/introduction
-<br>Please feel free to use our cloud prover for both local and remote DF dev setups:
+<br/>Need help? Start here: https://world.dev/introduction
+<br/>The client project contains valid defaults for running a backend locally.
+<br/>Please feel free to use our cloud prover for both local and remote DF dev setups:
 <br/>https://lambda.argus-dev.com/generate-proof
-
+<br/>
 - Check <b>Will Start In Clean Test Mode</b> to force creation of a new player.
 - Check <b>Will Require Beta Key</b> only if you've previously setup support for beta keys within the backend.
 - Check <b>Will Respect Countdown</b> only if you want a time-limited game.
