@@ -152,9 +152,11 @@ Dark Frontier is a Unity based MMORTS created by Argus Labs to demonstrate the c
   - Update Unity if needed.
 - Open the project in Unity 2022 LTS. At the time of this writing, 2023.2.x contains rendering issues.
 - Open the Bootstrap scene: Assets/Scenes/Bootstrap.unity
+- Locate and select the GameObject named Bootstrap within the Bootstrap scene.
+- Notice that the Bootstrap GameObject contains a Bootstrap.cs script as seen below.
 - Adjust the communications settings to suit your needs.
     - <img src="./client/bootstrap.png" alt="Gameplay Screenshot" width="400"/>
-     - Need help? Start here: [https://world.dev/introduction](https://world.dev/introduction)
+     - Need help with custom Nakama settings? Start here: [https://world.dev/client/introduction](https://world.dev/client/introduction)
      - The client project contains valid defaults for running a backend locally.
      - Please feel free to use our cloud prover for both local and remote DF dev setups:
     - [https://lambda.argus-dev.com/generate-proof](https://lambda.argus-dev.com/generate-proof)
