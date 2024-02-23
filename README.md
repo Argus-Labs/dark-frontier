@@ -153,13 +153,11 @@ Dark Frontier is a Unity based MMORTS created by Argus Labs to demonstrate the c
 - Open the project in Unity 2022 LTS. At the time of this writing, 2023.2.x contains rendering issues.
 - Open the Bootstrap scene: Assets/Scenes/Bootstrap.unity
 - Adjust the communications settings to suit your needs.
-<br/><img src="./client/bootstrap.png" alt="Gameplay Screenshot" width="400">
-<br/>
-<br/>Need help? Start here: https://world.dev/introduction
-<br/>The client project contains valid defaults for running a backend locally.
-<br/>Please feel free to use our cloud prover for both local and remote DF dev setups:
-<br/>https://lambda.argus-dev.com/generate-proof
-<br/>
+    - <img src="./client/bootstrap.png" alt="Gameplay Screenshot" width="400"/>
+     - Need help? Start here: [https://world.dev/introduction](https://world.dev/introduction)
+     - The client project contains valid defaults for running a backend locally.
+     - Please feel free to use our cloud prover for both local and remote DF dev setups:
+    - [https://lambda.argus-dev.com/generate-proof](https://lambda.argus-dev.com/generate-proof)
 - Check <b>Will Start In Clean Test Mode</b> to force creation of a new player.
 - Check <b>Will Require Beta Key</b> only if you've previously setup support for beta keys within the backend.
 - Check <b>Will Respect Countdown</b> only if you want a time-limited game.
